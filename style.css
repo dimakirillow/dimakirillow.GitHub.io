@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'Oswald';
+    src: url('fonts/Oswald-Regular.ttf') format('ttf');
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    color: #fff;
+}
+#body{
+    width: 100%;
+}
+#timer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    transition: 0.5s;
+    padding: 30px;
+    color: #ffffff;
+}
+#timer:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+table{
+    width: 70% !important;
+    color: #fff !important;
+    background-color: rgba(0,0,0,0.3);
+}
+td{
+    width: 50%;
+}
+tr{
+    transition: 0.5s;
+}
+tr:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+#italy{
+    background: url(images/italy.jpg) no-repeat center center/cover;
+}
+#japan{
+    background: url(images/japan.jpg) no-repeat center center/cover;
+}
+#england{
+    background: url(images/england.jpg) no-repeat center center/cover;
+}
+#france{
+    background: url(images/france.jpg) no-repeat center center/cover;
+}
+#switzerland{
+    background: url(images/switzerland.jpg) no-repeat center center/cover;
+}
+#hungary{
+    background: url(images/hungary.jpg) no-repeat center center/cover;
+}
+#india{
+    background: url(images/india.jpg) no-repeat center center/cover;
+}
+#romania{
+    background: url(images/romania.jpg) no-repeat center center/cover;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
